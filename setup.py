@@ -39,9 +39,9 @@ setup(
     #
     py_modules=['sanzang'],
     data_files=[
-        ['share/doc/sanzang-lib', [
+        ('share/doc/sanzang-lib', [
             'AUTHORS.rest',
             'LICENSE.rest',
             'NEWS.rest',
-            'README.rest']]]
+            'README.rest'])]
 )
